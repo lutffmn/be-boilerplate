@@ -2,6 +2,8 @@
 mod:
 	@ read -p "Module name: " Name; \
 	go mod init $${Name}
+	@ rm -rf .git/
+	git init
 
 # installing dependencies
 mod-install:
