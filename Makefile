@@ -5,5 +5,5 @@ mod:
 
 # installing dependencies
 mod-install:
-	go get -u github.com/jackc/pgx/v5
+	go get -u github.com/jackc/pgx
 	go get -u github.com/spf13/viper
