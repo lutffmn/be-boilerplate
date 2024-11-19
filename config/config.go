@@ -44,6 +44,10 @@ func GetConfig() *Config {
 		if err := viper.ReadInConfig(); err != nil {
 			panic(err)
 		}
+
+		if err := viper.Unmarshal(&configInstance); err != nil {
+			panic(err)
+		}
 	})
 
 	return configInstance
