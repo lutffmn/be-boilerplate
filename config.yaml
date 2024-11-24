@@ -2,10 +2,11 @@ server:
   port: 
 
 db:
-  host:
-  port:
+  driver: 
+  host: 
+  port: 
   user: 
   password: 
-  dbname:
-  sslmode:
-  timezone:
+  dbname: 
+  sslmode: 
+  timezone: 
